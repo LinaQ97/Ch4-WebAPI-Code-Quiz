@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h3>View Highscores</h3>
+
+        <p>Time: <label for="" id="timer">0</label> </p>
+    </header>
+
+    <main>
+        <section id="intro-section">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that the incorrect
+                answers will penalize your scoreTime by ten seconds!</p>
+            <button id="start-btn">Start Quiz</button>
+        </section>
+        <section id="question-section" class="hide">
+            <h2 id="title">Commonly used data types DO NOT include:</h2>
+            <ul>
+                <li><button class="choices">1.strings</button></li>
+                <li><button class="choices">2.booleans</button></li>
+                <li><button class="choices">3.alerts</button></li>
+                <li><button class="choices">4.numbers</button></li>
+            </ul>
+
+        </section>
+        <section id="initial-section">
+            <h3>All Done</h3>
+            <p>Your final score is <label for="" id="score"></label>80</p>
+            Enter Initials: <input type="text" id="initial-input">
+            <button id="save-btn">Save</button>
+        </section>
+        <section id="highscore-section">
+            <h3>High Scores</h3>
+            <ol>
+                <li>PL-80</li>
+            </ol>
+
+            <button id="go-back-bt">Go Back</button>
+            <button id="clear-btn">Clear History</button>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
